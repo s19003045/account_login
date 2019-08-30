@@ -1,0 +1,201 @@
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+.topNav {
+  background-color: #2f2f2f;
+  height: 4em;
+  text-align: center;
+}
+.logoForLogin {
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+  /* font-weight: bold; */
+}
+
+.failureMsg {
+  font-size: 1.1em;
+}
+i.fa-user,
+i.fa-bell {
+  font-size: 1.5em;
+}
+
+/* include previous css */
+.main {
+  position: relative;
+}
+#banner {
+  background: url("../images/banner-photo.jpg");
+  background-size: cover;
+  margin-top: 10%;
+  margin-bottom: 4%;
+  background-position: center;
+  /*   font-family: 'Lato'; */
+  color: white;
+  /*   border:2px #00b359 solid; */
+  height: 400px;
+  width: 100%;
+
+  /*   text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4),
+                 0 8px 13px rgba(0, 0, 0, 0.4),
+                 0 18px 23px rgba(0, 0, 0, 0.1); */
+}
+#content {
+  text-align: center;
+  color: white;
+  padding-top: 15%;
+  /*     text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4),
+                 0 8px 13px rgba(0, 0, 0, 0.4),
+                 0 18px 23px rgba(0, 0, 0, 0.1); */
+}
+#content h1 {
+  opacity: 0.1;
+  /*     font-weight: 500; */
+
+  /*     font-family: 'Noto Sans TC', sans-serif; */
+  transition: opacity 0.6s ease-in-out;
+  -webkit-transition: opacity 0.6s ease-in-out;
+  -moz-transition: opacity 0.6s ease-in-out;
+  -o-transition: opacity 0.6s ease-in-out;
+  -ms-transition: opacity 0.6s ease-in-out;
+}
+#content:hover h1 {
+  opacity: 1;
+}
+#content h3 {
+  opacity: 0.1;
+  /*     font-weight: 500; */
+
+  /*     font-family: 'Noto Sans TC', sans-serif; */
+  transition: opacity 0.6s ease-in-out;
+  -webkit-transition: opacity 0.6s ease-in-out;
+  -moz-transition: opacity 0.6s ease-in-out;
+  -o-transition: opacity 0.6s ease-in-out;
+  -ms-transition: opacity 0.6s ease-in-out;
+}
+#content:hover h3 {
+  opacity: 1;
+}
+hr {
+  /*     width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid #f8f8f8; */
+}
+
+#left-nav {
+  float: left;
+  /*   border:2px brown solid; */
+  width: 9%;
+  height: 800px;
+  text-align: center;
+  /*display:inline-block;   */
+  /*當float:left時，inline-block失去作用。*/
+}
+#center-content {
+  /*   border:2px black solid; */
+  width: 82%;
+  height: 800px;
+  display: inline-block;
+  text-align: center;
+}
+#right-nav {
+  float: right;
+  /*   border:2px brown solid; */
+  width: 9%;
+  height: 800px;
+  text-align: center;
+  /*display:inline-block;   */
+  /*當float:right時，inline-block失去作用。*/
+}
+.cities {
+}
+.cities section {
+  padding: 10px;
+}
+/* 設定section.city1~city3的<p>，將高度限制在40px，並設定transition */
+.cities p {
+  height: 38px;
+  overflow: hidden;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+}
+.city1 {
+  /*   border:blue solid; */
+  font-size: 12px;
+  width: 33%;
+  float: left;
+  height: 350px;
+  display: inline-block;
+}
+#city1-pic {
+  background: url("../images/city-pic1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+  opacity: 0.7;
+  transition: opacity 1s ease-in-out;
+}
+/* 當滑鼠移到section.city1時，圖片透明度改為1 */
+.city1:hover #city1-pic {
+  opacity: 1;
+}
+/* 當滑鼠移到section.city1時，<p>展開 */
+.city1:hover p {
+  height: 500px;
+}
+
+.city2 {
+  /*   border:green solid; */
+  font-size: 12px;
+  width: 34%;
+  float: left;
+  height: 350px;
+  display: inline-block;
+}
+#city2-pic {
+  background: url("../images/city-pic2.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+  opacity: 0.7;
+  transition: opacity 1s ease-in-out;
+}
+
+/* 當滑鼠移到section.city2時，圖片透明度改為1 */
+.city2:hover #city2-pic {
+  opacity: 1;
+}
+/* 當滑鼠移到section.city2時，<p>展開 */
+.city2:hover p {
+  height: 500px;
+}
+
+.city3 {
+  /*   border:red solid; */
+  font-size: 12px;
+  width: 33%;
+  float: right;
+  height: 350px;
+  display: inline-block;
+}
+#city3-pic {
+  background: url("../images/city-pic3.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+  opacity: 0.7;
+  transition: opacity 1s ease-in-out;
+}
+/* 當滑鼠移到section.city3時，圖片透明度改為1 */
+.city3:hover #city3-pic {
+  opacity: 1;
+}
+/* 當滑鼠移到section.city3時，<p>展開 */
+.city3:hover p {
+  height: 500px;
+}
