@@ -77,10 +77,11 @@ Node.js、Express、Express-handlebars、body-parser
 ## 畫面
 
 - login
-  ![login](https://github.com/s19003045/acount_login/blob/master/public/images/acount_login.png)
+  ![login](https://github.com/s19003045/account_login/blob/master/public/images/account_login.png)
+
 
 - login success
-  ![login_success](https://github.com/s19003045/acount_login/blob/master/public/images/login_success.png)
+  ![login_success](https://github.com/s19003045/account_login/blob/master/public/images/login_success.png)
 
 ## 開發人員
 
